@@ -10,6 +10,6 @@ arm.prop 自定义关键词
 
 global.prop.def 607行 添加uint8_t等Keywords
 
-##UV4编辑器本质就是SciTE
+## UV4编辑器本质就是SciTE
 
-(SciTE)[https://www.scintilla.org/SciTEDoc.html]
+[SciTE](https://www.scintilla.org/SciTEDoc.html)
