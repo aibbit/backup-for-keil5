@@ -5,3 +5,7 @@ my backup for keil5
 ./keil/UV4/xxx
 
 
+
+global.prop 字体颜色配置
+arm.prop 自定义关键词
+global.prop.def 607行 添加uint8_t等Keywords
