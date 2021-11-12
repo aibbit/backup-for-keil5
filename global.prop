@@ -67,8 +67,9 @@ edge.colour=#66FAFA
 
 # C/C++ Editor files
 template.cpp="#define","#define |";"#if","#if |\r\n\r\n#endif";\\
-    "#ifndef","#ifndef |\r\n#define\r\n\r\n#endif";"#include","#include ";\\
-    "Header","// Header:\r\n// File Name: |\r\n// Author:\r\n// Date:\r\n";\\
+    "#ifndef","#ifndef _|_H_\r\n#define __H_\r\n\r\n#endif\r\n";\\
+    "#include","#include ";"Header","// Header:\r\n// File Name: |\r\n// Author:\r\n// Date:\r\n";\\
+    "NOTE","/**\r\n  * @brief\r\n  * @note\r\n  * @param\r\n  * @retval\r\n  */";\\
     "continue","continue;";"do","do\r\n{\r\n\t// TODO: enter the block content here\r\n\t\r\n\t|\r\n} while ();\r\n";\\
     "enum","enum |\r\n{\r\n\t\r\n};\r\n";"for","for(|;;)\r\n{\r\n}";\\
     "fpointer_type","typedef int (* |F)();\r\n";"function","void function(|)\r\n{\r\n\r\n}\r\n";\\
@@ -91,7 +92,7 @@ style.cpp.9=font:Consolas,size:14,fore:#7F7F00,back:#FFFFFF
 style.cpp.7=font:Consolas,size:14,fore:#7F007F,back:#FFFFFF
 style.cpp.34=font:Consolas,size:14,fore:#500000,back:#20FFFF
 style.cpp.35=font:Consolas,size:14,fore:#FF0000,back:#FFFFFF
-style.cpp.16=font:Consolas,size:14,fore:#0000FF,back:#FFFFFF,bold
+style.cpp.16=font:Consolas,size:14,fore:#B00040,back:#FFFFFF
 style.cpp.12=font:Consolas,size:14,fore:#000000,back:#E0C0E0
 style.cpp.86=font:Consolas,size:14,fore:#696969,back:#FFFFFF
 
